@@ -1,0 +1,289 @@
+
+/* Fonts   */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Noto+Serif:wght@700&family=Catamaran:wght@300&family=Lexend:wght@500&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin: 0; padding: 0;
+ }
+    
+    /* start  heading ..   */
+     .nav{
+      font-family: Acme;
+      letter-spacing: 3px;
+      padding: 20px 140px;
+      position: relative;
+    }
+
+    .nav i{ position: absolute; right: 140px; }
+
+    .header{ height: 600px; text-align: center; }
+
+    .header h1{
+        font-family: 'Noto Serif';
+        font-size: 40px;
+        padding-top: 150px ;
+    }
+    .header h5{
+        font-family: Catamaran;
+        padding: 10px 0 20px 0;
+    }
+
+    .header .button,.button2,
+    .button3,.button4,.btn{
+    background-color: #89a794;
+     font-family: Lexend;
+    color: black;
+    width: 160px;
+    font-weight: bold;
+    padding:15px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+     /* end heading ..   */
+
+     /*start first article*/
+
+.first{ display: flex; margin-bottom: 80px;  }
+
+.first .pic img{max-width: 550px; height: 500px;}
+
+.first .half{flex:0 1 45%; height: 500px;}
+
+.first .tex{
+    color: black;
+    padding: 140px 100px 0 0px;
+    font-family:  'Noto Serif';
+}
+
+.first .tex h2,.third h2{
+    margin-bottom: 25px;
+     font-size: 35px;
+      line-height: 1.3em;
+      letter-spacing: .4px;
+      font-family: 'Noto Serif';
+    }
+
+    .first .tex p,.third p{
+        margin: 0 0 40px 0;
+        line-height: 1.3em;
+      font-weight: 600;
+      font-family: Catamaran;
+    }
+
+     /*end first article*/
+     /* start new section */
+     .second{  padding: 5px 160px;}
+
+     .second h2{
+         text-align: center;
+         font-family: 'Noto Serif';
+         margin-bottom: 50px;
+         font-size: 33px;
+     }
+    
+     .second .div{
+         float: left;
+          width: 22%;
+         border: 1px solid rgb(197, 188, 188);
+         margin:10px ;
+         text-align: center;
+         padding: 10px 20px 20px 20px;
+         border-radius: 8px;
+         line-height: 1.4em;
+     }
+
+     .second h3{ padding: 4px 0;}
+     .second img:hover{
+        cursor: pointer;
+        width: 95px;
+     }
+
+     .clear{ clear: both;}
+
+     .second .div2{
+         float: left;
+         width: 50%;
+         padding: 30px 50px 30px 10px;
+     }
+     .second .button3{
+         width: 190px;
+        margin: 20px 0 100px 410px;
+     }
+        /* end new section */
+        .third{display: flex;}
+
+        .third .same{ flex:0 1 46%; }
+
+        .third .text{
+         height: 500px;
+         padding: 50px 5px 0 150px; 
+        }
+
+        .third .ul{padding-left: 20px;}
+
+        .third .li{
+            line-height: 1.3em;
+            list-style: outside;
+            float: none;
+        }
+
+        .third .pho{
+           max-width: 550px;
+           height: 500px;
+           padding-left: 102px;
+        }
+
+        .third p{ margin-bottom: 30px;}
+
+        /*second article*/
+        /* line */
+        .line{
+            width: 100%;
+            height: 150px;
+            font-family: 'Noto Serif';
+            font-size: 19px;
+            background-color: #89a794;
+            display: flex;
+            justify-content: center;
+           align-items: center;
+         
+        }
+      /* start blog */
+    .blog{padding: 10px 90px; }
+
+      .blog h2{
+          text-align: center;
+          font-family: 'Noto Serif';
+          font-size: 31px;
+          margin: 80px 0 10px 0;
+      }
+
+      .blog .three-div{
+        display: inline-flex;
+        justify-content: center;
+        padding: 10px 80px;  
+      }
+
+      .blog.float{  float: left;width: 25%;}
+
+      .blog .float img{margin: 10px;}
+
+      .float i{  margin: 5px 5px 16px 14px; }
+
+      .float span,p{font-family: Catamaran;}
+
+      .float p{
+          font-size: 22px;
+          line-height: 1.1em;
+          padding: 10px;
+          margin-bottom: 25px;
+      }
+
+      .blog .button4{margin-left: 485px; width: 180px;}
+     
+      /* end blog */
+      /*logos  */
+      .logos{padding: 60px 100px ; }
+
+      .logos li{
+          list-style: none;
+          float: left;
+          margin: 20px;
+      }
+
+      .logos img{ width: 100px;}
+
+      /* end logos  */
+
+      /* start Get in touch */
+     
+      .content{
+        margin: 80px 0px 100px 150px;
+        position: relative;
+        display: flex;
+    }
+
+    .content h2{  padding-bottom: 10px;  font-family: 'Noto Serif'; }
+
+    .content label{
+        display:block ;
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    .content input{
+        width: 285px;
+        height: 50px;
+        margin:  15px 8px 10px 0;
+        padding: 0 20px;
+        opacity: .7;
+        outline:none;
+         border: 1px solid #d9d9d9 ;    
+    }
+
+    .content .rap{
+        display:inline;
+        position: absolute;
+        left: 300px;
+    }
+
+    .content .msg{ padding: 10px 0 ; }
+
+    .content textarea{
+        border: 1px solid #d9d9d9 ;
+        opacity: .5;
+        padding: 20px;
+    }
+
+    .content .map{
+        width: 40%;
+        padding-left: 40px;
+        padding-top: 10px;
+    }
+
+    .content button{
+        display: block;
+        margin-top: 20px;
+    }
+
+      /* end Get in touch */
+      /* footer */
+
+      .footer{
+          color: #fff;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+      height: 100px;
+      position: relative;
+      background-color:#89a794 ;
+    }
+
+    .footer h2{ letter-spacing: .2em; font-size: 2em;}
+    
+    .footer h4{ position: absolute;  right: 50px; }
+
+     a{text-decoration: none; color: #fff;}
+     
+     .footer h2{
+          font-family: Acme;
+           letter-spacing: 3px;
+         
+        }
+
+    .footer .icon{
+        position: absolute;
+        left: 50px
+    }
+
+    .footer h4{opacity: .7; }
+
+    .footer ul,li{
+        list-style: none;
+        float: left;
+        margin: 0 6px;
+    }
+
+       /*End  footer */
