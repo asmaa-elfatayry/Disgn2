@@ -37,6 +37,7 @@ line-height: 70px;
 .nav ul li{
 display: inline-block;
 line-height: 73px;
+margin: 0;
 }
 .nav ul li a{
     padding: 7px 13px;
@@ -53,7 +54,7 @@ border: 1px solid #eea328;
 transition: .6s linear;
 }
 /**header**/
-header{
+.header{
     background-image: url('/pic/cov1.jpg');
     background-position: center center;
     background-size: cover;
@@ -389,32 +390,5 @@ font-size: 19px;
             border: none;
             color: #b67712;
         }
-      /*
-    .footer h2{ }
-    
-    .footer h4{ position: absolute;  }
-
-     a{text-decoration: none; color: #fff;}
-     
-     .footer h2{
-          font-family: Acme;
-           letter-spacing: 3px;
-           letter-spacing: .2em; 
-           font-size: 2em;
-         
-        }
-
-    .footer .icon{
-        position: absolute;
-      
-    }
-
-    .footer h4{opacity: .7; }
-
-    .footer ul,li{
-        list-style: none;
-        float: left;
-        margin: 0 6px;
-    }
-*/
+   
        /*End  footer */
