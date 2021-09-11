@@ -24,6 +24,7 @@ line-height: 50px;
 .nav ul li{
     display:block;
 line-height: 50px;
+margin: 0;
 }
 .nav ul li a{
     padding: 15px 0px;
@@ -228,7 +229,8 @@ margin-top: 17% ;
     }
     .nav ul li{
     line-height: 50px;
-    padding: 15px
+    padding: 15px;
+    margin: 0;
     }
     
     .nav ul li a{
@@ -347,7 +349,8 @@ line-height: 50px;
 }
 .nav ul li{
 line-height: 50px;
-padding: 15px
+padding: 15px;
+margin: 0;
 }
 
 
@@ -472,6 +475,9 @@ margin-top: 12% ;
 }
 /******************large*******************/
 @media (min-width:1101px) and (max-width:1385px) {
+    .nav li{
+        margin: 0px;
+    }
 /*start first article*/
 img {
     height: 100%;
