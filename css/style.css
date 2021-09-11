@@ -50,7 +50,7 @@ margin: 0px;
     text-decoration: auto;
 }
 a.active,a:hover{
-border: 1px solid #eea328;
+ border-bottom: 2px solid #eea328;
 transition: .6s linear;
 }
 /**header**/
