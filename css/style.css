@@ -55,7 +55,7 @@ transition: .6s linear;
 }
 /**header**/
 .header{
-    background-image: url('/pic/cov1.jpg');
+    background-image: url('../pic/cov1.jpg');
     background-position: center center;
     background-size: cover;
     height: 100vh;
